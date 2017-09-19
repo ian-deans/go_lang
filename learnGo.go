@@ -125,10 +125,10 @@ func learnFlowControl() {
 	// x == 42 here, outside of the for loops's scope
 
 	// While For is the only loop in Go, it has several forms
-	for {
-		break
-		continue
-	}
+	// for {
+	// 	break
+	// 	continue
+	// }
 
 	for key, value := range map[string]int{"one": 1, "two": 2, "three": 3}
 	{
